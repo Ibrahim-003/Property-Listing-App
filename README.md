@@ -5,7 +5,7 @@ Property Listing App es una aplicación web desarrollada con TypeScript y React 
 ## Vista Previa
 ![Captura del Proyecto](./src/assets/images/desktop-preview.webp)
 
-Puedes ver la versión demo en vivo aquí: [Property Listing App](https://coffee-listing-app-psi.vercel.app/)
+Puedes ver la versión demo en vivo aquí: [Property Listing App](https://property-listing-app-phi.vercel.app/)
 
 ## Características
 
