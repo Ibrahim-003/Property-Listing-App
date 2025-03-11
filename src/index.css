@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* PALLETE COLOR */
+    /* --color-*: initial; */
+    --color-sky-light: #F2F9FE;
+    --color-slate-dark: #4A5567;
+    --golden-sun: #F6C768;
+    --color-midnight: #20293A;
+    --color-deep-space: #121826;
+    --electric-blue: #4E80EE;
+    --muted-gray: #7E869E40;
+    --color-midnight-opacity: #20293AF2;
+
+    /* FONT FAMILY */
+    --font-*: initial;
+    --font-sans: "Outfit", serif;
+
+    /* FONT SIZES */
+    --size-title: 64px;
+    --size-subtitle: 24px;
+
+    /* GRIDS */
+    --properties-listing-grid: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@layer base {
+
+    h1 {
+        font-size: clamp(40px, 8vw, var(--size-title));
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: var(--size-subtitle);
+    }
+
+    button, select {
+        cursor: pointer;
+    }
+}
+
+@layer components {
+    .hero-section {
+        position: absolute;
+        width: 100%;
+        height: 310px;
+        background-image: url("./assets/hero-image-sm.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
